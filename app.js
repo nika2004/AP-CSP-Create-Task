@@ -13,3 +13,5 @@ async function fetchAsync(){
   console.log(cYear);
   console.log(`Today is ${cMonth}/${cDay}/${cYear}`);
   document.getElementById("todayis").innerHTML = `Today is ${cMonth}/${cDay}/${cYear}`;
+
+  
