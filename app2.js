@@ -1,17 +1,4 @@
-
-
-const currentDate = new Date();
-  let cDay = currentDate.getDate()
-  let cMonth = currentDate.getMonth() + 1
-  let cYear = currentDate.getFullYear()
-  console.log(cDay);
-  console.log(cMonth);
-  console.log(cYear);
-
-  document.getElementById("today-is").innerHTML = `Today is ${cMonth}/${cDay}/${cYear}`;
-  console.log(`Today is ${cMonth}/${cDay}/${cYear}`); 
-
-  /* document.getElementById("search-submit").addEventListener("click", function () {
+document.getElementById("search-submit").addEventListener("click", function () {
     const input = document.getElementById("userInput").value;
     console.log(input);
     const userDate = input;
@@ -25,5 +12,4 @@ const currentDate = new Date();
       }
     fetchAsync()
 
-  }); */
- 
+  });
