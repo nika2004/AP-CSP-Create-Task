@@ -9,22 +9,32 @@
     <link rel="date-page" href="date.html">
 </head>
 <body>
+    <div id="page-background">
     <div id="page-body">
         <div id= "header">
+            <h2 id="app-welcome">WELCOME TO NASA'S PICTURE OF THE DAY</h2>
+            <br>
+            <div id="app-introduction">
+                <p>On this app you will discover various images from NASA that are associated with specific days.</p> 
+                <p>If you click the RANDOMIZE button, the home page will present a picture taken from NASA on today's date from a random year between 1996-2021.</p>
+                <p>However, you also have the option of choosing any date you want by clicking on "Choose Your Date" at the bottom of the page.</p> 
+                <p>This will present the image taken from NASA's archive on any date that you choose, so long as its from the year 1996 and onward.</p>
+            </div>
+            <br>
+            <button id="buttons-1">RANDOMIZE</button>
             <div id= "today">
-                <h1 id="today-is">Todayis</h1>
-                <h2 id="today-title">Title</h2>
-                <img class="today-pic" src="" alt="">
-                <p id="today-info">Info</p>
+                <h2 id="today-is"></h2>
+                <h2 id="today-title"></h2>
+                <div id="today-image"></div>
+                <p id="today-info">CLICK RANDOMIZE</p>
             </div>
         </div>
         <br class="line-break">
-        <div id= "button">
-            <a href=date.html>
-                <button>Choose Your Date</button>
-            </a>
-        </div>
+        <a href=date.html>
+            <button class="buttons">CHOOSE YOUR DATE</button>
+        </a>
     </div> 
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
